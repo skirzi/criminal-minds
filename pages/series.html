@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Серии</title>
+    <link rel="stylesheet" href="../styles/styleforseries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html"><img src="../logo.png" alt=""></a>
+            <ul class="nav">
+                <li><a href="index.html"><span class="material-symbols-outlined">home</span>Главная страница</a></li>
+                <li class="active"><a href="series.html"><span
+                            class="material-symbols-outlined">playlist_play</span>Серии</a></li>
+                <li><a href="actors.html"><span class="material-symbols-outlined">groups</span>Актёры</a></li>
+                <li><a href="community.html"><span class="material-symbols-outlined">forum</span>Сообщество</a></li>
+                <li><a href="lognreg.html"><span class="material-symbols-outlined">account_circle</span>Аккаунт</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="video">
+            <div class="seasonandseries">
+                <select name="seasons" id="seasons">
+                    <option value="1">1 сезон</option>
+                    <option value="2">2 сезон</option>
+                    <option value="3">3 сезон</option>
+                    <option value="4">4 сезон</option>
+                    <option value="5">5 сезон</option>
+                    <option value="6">6 сезон</option>
+                    <option value="7">7 сезон</option>
+                    <option value="8">8 сезон</option>
+                    <option value="9">9 сезон</option>
+                    <option value="10">10 сезон</option>
+                    <option value="11">11 сезон</option>
+                    <option value="12">12 сезон</option>
+                    <option value="13">13 сезон</option>
+                    <option value="14">14 сезон</option>
+                    <option value="15">15 сезон</option>
+                </select>
+                <select name="series" id="series">
+                    <option value="">1 серия</option>
+                </select>
+            </div>
+            <video id="video" controls hidden></video>
+            <p class="video-message" id="videoMessage">не хватило памяти для этого эпизода</p>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+
+
+</html>
